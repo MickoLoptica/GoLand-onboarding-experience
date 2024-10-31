@@ -1,0 +1,15 @@
+package resenje;
+
+import java.io.*;
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		IndexingService indexingService = new IndexingService();
+		System.out.println("Please write paths to files for indexing");
+		List<File> files = new ArrayList<File>();
+	}
+
+}

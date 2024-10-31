@@ -1,0 +1,41 @@
+package resenje;
+
+import java.io.*;
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		IndexingService indexingService = new IndexingService();
+		System.out.println("Please type paths to files for indexing (write 'end' for end of the files list)");
+		List<File> files = new ArrayList<File>();
+		while (true) {
+			String input = scanner.nextLine();
+			if (input.equalsIgnoreCase("end")) {
+				break;
+			}
+			files.add(new File(input));
+		}
+		indexingService.indexFiles(files);
+		while (true) {
+			System.out.println("Please type the word you want to find: ");
+			String searchWord = scanner.nextLine();
+			if (searchWord.equalsIgnoreCase("end")) {
+				break;
+			}
+			List<String> results = indexingService.searchWord(searchWord);
+			if (results.isEmpty()) {
+				System.out.println("Word was not found in the index");
+			}
+			else {
+				System.out.println("Word was found in these files: " + String.join(", ", results));
+			}
+		}
+		System.out.println("Where do you want to save the index?");
+		String outputPath = scanner.nextLine();
+		indexingService.saveIndexToFile(outputPath);
+		System.out.println("Index was successfully saved!");
+	}
+
+}

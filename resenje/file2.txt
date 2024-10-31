@@ -1,0 +1,5 @@
+Another file for testing.
+
+This file includes some punctuation: commas, periods, and hyphens - like this.
+
+We need to ensure that words like "test" and "hello" are indexed correctly.

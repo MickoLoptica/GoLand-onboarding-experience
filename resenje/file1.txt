@@ -1,0 +1,5 @@
+Hello, world! This is a test.
+
+This test is for indexing words: hello, world, and other words.
+
+Let's see how many words we can find in this file.

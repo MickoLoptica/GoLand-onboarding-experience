@@ -1,0 +1,28 @@
+package resenje;
+
+import java.io.*;
+import java.util.*;
+
+public class IndexingService {
+
+	private Map<String, List<String>> index;
+	
+	public IndexingService() {
+		index = new HashMap<String, List<String>>();
+	}
+	
+	public void indexFiles(List<File> files) {
+		for (File file : files) {
+			try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+				String line;
+				while ((line = br.readLine()) != null) {
+					String[] words = line.split(" ");
+				}
+			}
+			catch (IOException e) {
+				System.out.println("Error reading file " + file.getName());
+			}
+		}
+	}
+	
+}

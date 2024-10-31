@@ -1,0 +1,36 @@
+some - file2.txt
+commas - file2.txt
+other - file1.txt
+another - file2.txt
+for - file1.txt, file2.txt
+we - file1.txt, file2.txt
+how - file1.txt
+can - file1.txt
+that - file2.txt
+correctly - file2.txt
+see - file1.txt
+world - file1.txt
+file - file1.txt, file2.txt
+are - file2.txt
+and - file1.txt, file2.txt
+find - file1.txt
+periods - file2.txt
+hyphens - file2.txt
+a - file1.txt
+ensure - file2.txt
+test - file1.txt, file2.txt
+indexing - file1.txt
+in - file1.txt
+like - file2.txt
+need - file2.txt
+indexed - file2.txt
+let's - file1.txt
+testing - file2.txt
+this - file1.txt, file2.txt
+words - file1.txt, file2.txt
+is - file1.txt
+includes - file2.txt
+many - file1.txt
+punctuation - file2.txt
+hello - file1.txt, file2.txt
+to - file2.txt
