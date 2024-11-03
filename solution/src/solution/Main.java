@@ -1,4 +1,4 @@
-package resenje;
+package solution;
 
 import java.io.*;
 import java.util.*;
